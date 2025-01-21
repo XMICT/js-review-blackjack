@@ -1,0 +1,26 @@
+html, body{
+  margin: 0;
+  padding: 0;
+
+  background-color: #1f7a41;
+  color: white;
+}
+
+.title{
+  text-align: center;
+  background-color: #000;
+}
+
+.box-cards{
+  height: 180px;
+  display: flex;
+}
+
+.card{
+  height: 180px;
+  margin-right: -70px;
+}
+
+.card:not(:first-child){
+  position: relative;
+}
