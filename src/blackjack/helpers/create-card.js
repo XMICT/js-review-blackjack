@@ -9,7 +9,7 @@ export const createCard = (card, turn, containersCardsHTML) => {
   const cardImage = document.createElement('img')
 
   cardImage.classList.add('card')
-  cardImage.src = `/assets/cards/${card}.png`
+  cardImage.src = `/js-review-blackjack/assets/cards/${card}.png`
 
   containersCardsHTML[turn].append(cardImage)
 }
